@@ -7,6 +7,8 @@
 .classpath
 .project
 .tmpBin
+.idea
+.cache-main
 project/project/target
 project/target
 build
