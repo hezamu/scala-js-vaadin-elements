@@ -1,7 +1,7 @@
 scala-js-vaadin-components
 ==========================
 
-Static types of Vaadin Components JavaScript objects for [Scala.js](http://www.scala-js.org/) programs.
+Static types of [Vaadin Components](http://vaadin.com/components) JavaScript objects for [Scala.js](http://www.scala-js.org/) programs.
 
 Example
 -------
