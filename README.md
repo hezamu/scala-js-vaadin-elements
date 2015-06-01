@@ -25,6 +25,7 @@ The Scala.js version of the [Grid example](http://vaadin.github.io/components-ex
 import scala.scalajs.js
 import scala.scalajs.concurrent.JSExecutionContext.Implicits.runNow
 import org.scalajs.dom
+import org.vaadin.hezamu.components._
 	
 object GridDemo extends js.JSApp {
   def main {
