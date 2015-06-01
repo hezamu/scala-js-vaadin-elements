@@ -10,7 +10,7 @@ Add the following to your sbt build definition:
 
     resolvers += "Vaadin Components wrapper" at "http://hezamu.github.io/repository/snapshots"
 
-    "org.vaadin.addons" %%% "scala-js-vaadin-components" % "0.1.0-SNAPSHOT"
+    libraryDependencies += "org.vaadin.addons" %%% "scala-js-vaadin-components" % "0.1.0-SNAPSHOT"
 
 then enjoy the types available in package `org.vaadin.hezamu.components`. 
 
