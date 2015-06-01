@@ -3,6 +3,19 @@ scala-js-vaadin-components
 
 Static types of [Vaadin Components](http://vaadin.com/components) JavaScript objects for [Scala.js](http://www.scala-js.org/) programs.
 
+Usage
+-----
+
+Add the following to your sbt build definition:
+
+    resolvers += "Vaadin Components wrapper" at "http://hezamu.github.io/repository/snapshots"
+
+    "org.vaadin.addons" %%% "scala-js-vaadin-components" % "0.1.0-SNAPSHOT"
+
+then enjoy the types available in package `org.vaadin.hezamu.components`. 
+
+scala-js-vaadin-components is built and published for Scala.js 0.6.x.
+
 Example
 -------
 
